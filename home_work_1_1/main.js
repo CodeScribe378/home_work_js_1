@@ -19,8 +19,6 @@ let n7 = 16;
 let k = 'true';
 let l = 'false';
 
-
-
 console.log(greeting);
 console.log(a);
 console.log(b);
