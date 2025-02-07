@@ -96,71 +96,30 @@ let book3={
 console.log(book3);
 
 //exercise 4
-let person1={
-    name: 'Julia',
-    username: 'Julia-JS',
-    password: 'julia@gmail.com',
-};
 
-let person2={
-    name: 'Brian',
-    username: 'Brian-KJ',
-    password: 'brian@gmail.com',
-};
-let person3={
-    name: 'Ursula',
-    username: 'Ursula123',
-    password: 'ursula@gmail.com',
-};
-let person4={
-    name: 'Tom',
-    username: 'Tom456',
-    password: 'tom@gmail.com',
-};
+let person=[
+    {name: 'Julia', username: 'Julia-JS', password: 'julia@gmail.com',},
+    {name: 'Brian', username: 'Brian-KJ', password: 'brian@gmail.com',},
+    {name: 'Ursula', username: 'Ursula123', password: 'ursula@gmail.com',},
+    {name: 'Tom', username: 'Tom456', password: 'tom@gmail.com',},
+    {name:'Victor', username: 'Victor12', password: 'victor@gmail.com',},
+    { name: 'Victoria', username: 'Victoria33', password: 'victoria@gmail.com',},
+    { name: 'Luis', username: 'Luis23', password: 'luis@gmail.com',},
+    {name: 'Lucia', username: 'Lucia-LP', password: 'lucia@gmail.com',},
+    { name: 'Judit', username: 'Judit45', password: 'judit@gmail.com',},
+    {name: 'Denis', username: 'Denis23', password: 'denis@gmail.com'}
+]
+console.log(person[0].password);
+console.log(person[1].password);
+console.log(person[2].password);
+console.log(person[3].password);
+console.log(person[4].password);
+console.log(person[5].password);
+console.log(person[6].password);
+console.log(person[7].password);
+console.log(person[8].password);
+console.log(person[9].password);
 
-let person5={
-    name:'Victor',
-    username: 'Victor12',
-    password: 'victor@gmail.com',
-};
-let person6={
-    name: 'Victoria',
-    username: 'Victoria33',
-    password: 'victoria@gmail.com',
-};
-
-let person7={
-    name: 'Luis',
-    username: 'Luis23',
-    password: 'luis@gmail.com',
-};
-let person8={
-    name: 'Lucia',
-    username: 'Lucia-LP',
-    password: 'lucia@gmail.com',
-};
-let person9={
-    name: 'Judit',
-    username: 'Judit45',
-    password: 'judit@gmail.com',
-};
-
-let person10={
-    name: 'Denis',
-    username: 'Denis23',
-    password: 'denis@gmail.com'
-};
-
-console.log(person1.password);
-console.log(person2.password);
-console.log(person3.password);
-console.log(person4.password);
-console.log(person5.password);
-console.log(person6.password);
-console.log(person7.password);
-console.log(person8.password);
-console.log(person9.password);
-console.log(person10.password);
 
 //exercise5
 
