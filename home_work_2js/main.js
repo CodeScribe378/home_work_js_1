@@ -220,16 +220,16 @@ let x=2;
 //exercise 11
 let a=0;
     if(a===0){
-        a= 'default';
+        console.log('default');
     }else if (a===null){
-        a='default';
+        console.log(a='default');
     }else if (a===undefined){
-        a='default';
+        console.log(a='default');
     }else if(a===''){
-        a='default';
+        console.log(a='default');
 
     }else if(a===NaN){
-        a='default';
+        console.log(a='default');
     }
 
     //exercise 12
