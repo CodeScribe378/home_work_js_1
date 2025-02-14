@@ -91,7 +91,7 @@ function arrayNumbers (numbers){
            minNumber = number;
         }
     }
-    return minNumber;
+    return  minNumber;
 }
 
 console.log (arrayNumbers([3,4,2,5,6]));
